@@ -1,0 +1,94 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.app-heading {
+  color: #1e2830;
+  margin-left: 55px;
+}
+
+.movie-card-list {
+  list-style-type: none;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  color: #263846;
+}
+
+.movie-card {
+  list-style-type: none;
+  width: 25%;
+  margin: 15px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+  color: #1e2830;
+}
+
+.movie-card-heading {
+  background: #6200ee;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.movie-card-content {
+  padding-left: 10px;
+}
+
+.highlighted {
+  color: #6200ee;
+  font-weight: bold;
+}
+
+.user-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.user-list-item {
+  padding-bottom: 5px;
+}
+
+.user-name {
+  display: inline;
+  position: relative;
+  top: -13px;
+  padding-left: 10px;
+  color: #7e898c;
+}
+
+.avatar {
+  width: 40px;
+}
+
+.footer {
+  bottom: 0;
+  position: relative;
+  color: #949ba1;
+  text-align: center;
+  font-size: 10px;
+}
