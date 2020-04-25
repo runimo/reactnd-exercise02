@@ -8,3 +8,6 @@ I added some styling to make it look nicer.
 
 ![project screenshot](https://github.com/runimo/reactnd-exercise02/blob/master/reactnd-exercise02.png)
 
+### Project Setup
+- Clone the project - `git clone https://github.com/runimo/reactnd-exercise02.git`
+- Install the dependencies - `npm install`
